@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+.bg-pink {
+  background-color: #65bdaa;
+}
+
+.bg-white {
+  background-color: #ffffef;
+}
+
+.card {
+  width: 300px;
+  height: 240px;
+}
+
+.rounded {
+  border-radius: 15px;
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-center {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.my-8 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.p-8 {
+  padding: 8px;
+}
+
+.m-8 {
+  margin: 8px;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.font-xs {
+  font-size: 10px;
+}
+
+.text-white {
+  color: #ffffef;
+}
+
+.text-gray {
+  color: #878787;
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  border: 0.5px solid #65bdaa;
+  background-color: #ffffef;
+  display: inline-block;
+}
+
+.animate-dot {
+  animation-name: changeColor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.animation-delay-1 {
+  animation-delay: 1s;
+}
+
+.animation-delay-2 {
+  animation-delay: 2s;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: #ffffef;
+  }
+  35% {
+    background-color: #65bdaa;
+  }
+  70% {
+    background-color: #ffffef;
+  }
+}
